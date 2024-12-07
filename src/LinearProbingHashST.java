@@ -5,6 +5,7 @@ public class LinearProbingHashST<Value> {
     private String hashMode;
     public static final String HASH_MODE_OLD = "old";
     public static final String HASH_MODE_CURRENT = "current";
+    private int comparisonSearchAmount = 0;
 
     public LinearProbingHashST(String hashMode) {
         this.hashMode = hashMode;
@@ -36,5 +37,9 @@ public class LinearProbingHashST<Value> {
             }
         }
         return null;
+    }
+
+    public int getComparisonSearchAmount() {
+        return comparisonSearchAmount;
     }
 }

@@ -43,5 +43,11 @@ public class DictionaryProcessor {
         return DictLP.get(keyword) != null;
     }
 
+    public int getCountSC() {
+        return DictSC.getComparisonSearchAmount();
+    }
+    public int getCountLP() {
+        return DictLP.getComparisonSearchAmount();
+    }
 
 }

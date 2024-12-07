@@ -1,5 +1,5 @@
 public class SeparateChainingHashST<Value> {
-    private int M = 20000;
+    private int M = 1000;
     private Node[] st = new Node[M];
     private String hashMode;
     public static final String HASH_MODE_OLD = "old";
