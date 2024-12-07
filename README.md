@@ -4,4 +4,5 @@
 - Date: 12-06-2024
 
 # Output
-![Insertion Output](Asg4DS.png)
+![Insertion Output](SCOutput.png)
+![Insertion Output](LPOutput.png)

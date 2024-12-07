@@ -44,7 +44,7 @@ public class Main {
             dictProcessorSChash1.searchSC(password);
             ConsoleColors.println("Amount of comparisons using old hash: " + dictProcessorSChash1.getCountSC(), "violet");
             dictProcessorSChash2.searchSC(password);
-            ConsoleColors.println("Amount of comparisons using CURRENT hash: " + dictProcessorSChash2.getCountSC() + "\n", "INDIGO");
+            ConsoleColors.println("Amount of comparisons using CURRENT hash: " + dictProcessorSChash2.getCountSC() + "\n", "ORANGE");
         }
 
         // checks passwords using Linear Probing
@@ -75,7 +75,7 @@ public class Main {
             dictProcessorLPhash1.searchLP(password);
             ConsoleColors.println("Amount of comparisons using old hash: " + dictProcessorLPhash1.getCountLP(), "violet");
             dictProcessorLPhash2.searchLP(password);
-            ConsoleColors.println("Amount of comparisons using CURRENT hash: " + dictProcessorLPhash2.getCountLP() + "\n", "INDIGO");
+            ConsoleColors.println("Amount of comparisons using CURRENT hash: " + dictProcessorLPhash2.getCountLP() + "\n", "ORANGE");
         }
     }
 }
